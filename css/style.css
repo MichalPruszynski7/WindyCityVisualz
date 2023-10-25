@@ -1,6 +1,6 @@
 #main-navbar {
-	background-color: green;
-	overflow: hidden;
+background-color: green;
+overflow: hidden;
 }
 
 #navbar-container {
@@ -16,9 +16,9 @@ float: left;
 }
 
 #main-navbar ul li {
-	display: block;
-	color: black;
-	right: 50%;
+display: block;
+color: black;
+right: 50%;
 }
 
 #main-navbar ul li a:hover {
