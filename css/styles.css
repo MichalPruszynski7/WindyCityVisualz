@@ -2,12 +2,12 @@
 #main-navbar {
   background-color: blue;
   align-content: left;
+  overflow: hidden;
 }
 
 #navbar-container {
 width: 10%;
 align-content: center;
-padding: 5px;
 }
 
 #main-navbar ul {
@@ -22,7 +22,7 @@ display: flex;
 #main-navbar ul li {
 display: block;
 color: #fff;
-right: 10%;
+align-content: center;
 }
 
 #main-navbar ul li a {
