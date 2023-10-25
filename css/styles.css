@@ -1,7 +1,6 @@
 
 #main-navbar {
   background-color: blue;
-  overflow: hidden;
 }
 
 #navbar-container {
@@ -15,7 +14,6 @@ padding: 10px;
 margin: 0;
 padding: 0;
 position: relative;
-left: 50%;
 align-content: center;
 justify-content: center;
 display: flex;
