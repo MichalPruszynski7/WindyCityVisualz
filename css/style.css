@@ -1,36 +1,39 @@
+
 #main-navbar {
-background-color: green;
-overflow: hidden;
+  background-color: blue;
+  overflow: hidden;
 }
 
 #navbar-container {
-float: right;
+float: left;
 width: 100%;
 position: relative;
 }
 
 #main-navbar ul {
-padding: 10px;
+margin: 0;
+padding: 0;
+position: relative;
 left: 50%;
 float: left;
 }
 
 #main-navbar ul li {
 display: block;
-color: black;
+color: #fff;
 right: 50%;
 }
 
-#main-navbar ul li a:hover {
-background-color: white;
+#main-navbar ul li a {
+  padding: 10px 20px;
+  display: block;
+  color: #fff;
 }
 
-body {
-	font-family: 'Times New Roman', serif, sans-serif;
-	background-color: limegreen;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+
+#onpage{
+  text-decoration: underline overline;
 }
