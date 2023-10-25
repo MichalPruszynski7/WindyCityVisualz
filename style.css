@@ -1,0 +1,26 @@
+#main-navbar {
+	background-color: green;
+	overflow: hidden;
+}
+
+#navbar-container {
+float: right;
+width: 100%;
+position: relative;
+}
+
+#main-navbar ul {
+padding: 10px;
+left: 50%;
+float: left;
+}
+
+#main-navbar ul li {
+	display: block;
+	color: black;
+	right: 50%;
+}
+
+#main-navbar ul li a:hover {
+background-color: white;
+}
