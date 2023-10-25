@@ -1,13 +1,13 @@
 
 #main-navbar {
   background-color: blue;
+  align-content: left;
 }
 
 #navbar-container {
-float: left;
 width: 10%;
 align-content: center;
-padding: 10px;
+padding: 5px;
 }
 
 #main-navbar ul {
