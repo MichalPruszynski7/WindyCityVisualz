@@ -37,3 +37,16 @@ right: 50%;
 #onpage{
   text-decoration: underline overline;
 }
+
+body {
+	font-size: 20px;
+	color: white;
+	list-style-type: none;
+	clear: both;
+	font-family: "Times New Roman", Times, serif;
+      
+}
+
+h1,h2,h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
