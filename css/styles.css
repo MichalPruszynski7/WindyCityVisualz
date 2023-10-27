@@ -3,11 +3,13 @@
   background-color: blue;
   float: center;
   overflow: hidden;
+  display: block;
 }
 
 #navbar-container {
 width: 100%;
 align-content: center;
+display: inline-block;
 }
 
 #main-navbar ul {
@@ -23,12 +25,14 @@ display: flex;
 display: block;
 color: #fff;
 align-content: center;
+display: inline-block;
 }
 
 #main-navbar ul li a {
   padding: 10px 20px;
   display: block;
   color: #fff;
+  display: inline-block;
 }
 
 #main-navbar ul li a:hover {
