@@ -4,6 +4,7 @@
   float: left;
   overflow: hidden;
   display: block;
+  width: 100%;
 }
 
 #navbar-container {
