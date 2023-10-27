@@ -79,3 +79,27 @@ footer {
   margin: 15px;
 }
 
+#contact-in {
+  border: 2px rgb(227,185,127) solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+#education-line {
+  border: 2px rgb(227,185,127) solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+#language-line {
+  border: 2px rgb(227,185,127) solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+#work-life {
+  border: 2px rgb(227,185,127) solid;
+  padding: 10px;
+  margin: 10px;
+}
+
