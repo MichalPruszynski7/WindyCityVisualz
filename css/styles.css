@@ -1,10 +1,11 @@
 
 #main-navbar {
   background-color: blue;
-  float: left;
   overflow: hidden;
   display: block;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 #navbar-container {
