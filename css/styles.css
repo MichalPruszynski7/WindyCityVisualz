@@ -1,6 +1,6 @@
 
 #main-navbar {
-  background-color: blue;
+  background-color: rgb(227,185,127);
   overflow: hidden;
   display: block;
   width: 100%;
@@ -33,11 +33,12 @@ display: inline-block;
 #main-navbar ul li a {
   padding: 10px 20px;
   display: block;
-  color: #fff;
+  color: rgb(52,56,61);
   display: inline-block;
 }
 
 #main-navbar ul li a:hover {
+  color: white;
   background-color: #000;
 }
 
@@ -47,18 +48,26 @@ display: inline-block;
 
 body {
 	font-size: 20px;
-	color: black;
+	color: rgb(191,200,214);
 	list-style-type: none;
 	clear: both;
 	font-family: "Times New Roman", Times, serif;
+  background-color: rgb(26,36,54);
       
 }
 
 h1,h2,h3 {
-	font-family: Arial, Helvetica, sans-serif;
-	align-content: center;
+	text-align: center;
 }
 
 section {
-	align-content: center;
+  text-align: center;
 }
+
+footer {
+  text-align: center;
+}
+
+
+
+
