@@ -8,25 +8,26 @@
 }
 
 #navbar-container {
-width: 100%;
-align-content: center;
-display: inline-block;
+  width: 100%;
+  align-content: center;
+  display: inline-block;
 }
 
 #main-navbar ul {
-margin: 0;
-padding: 0;
-position: relative;
-align-content: center;
-justify-content: center;
-display: flex;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  align-content: center;
+  justify-content: center;
+  display: flex;
 }
 
 #main-navbar ul li {
-display: block;
-color: #fff;
-align-content: center;
-display: inline-block;
+  display: block;
+  color: #fff;
+  align-content: center;
+  display: inline-block;
+  list-style-type: none;
 }
 
 #main-navbar ul li a {
