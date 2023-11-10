@@ -48,7 +48,8 @@
 }
 
 body {
-	font-size: 20px;
+	font-size: 1em;
+  font-size: 3vw;
 	color: rgb(191,200,214);
 	list-style-type: none;
 	clear: both;
