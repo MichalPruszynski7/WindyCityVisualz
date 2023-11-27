@@ -1,13 +1,12 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
   <html lang="en">
   <head>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
-    <script asyncsrc src="script.js"></script>
+    <meta name="viewport" content="initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Maps</title>
-  </head>  
+  </head>
   <body>
     <header>
       <nav id="main-navbar">
@@ -22,5 +21,19 @@
       </nav>
     </header>
     <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 52.229, lng: 21.012},
+          zoom: 6
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
+    async defer></script>
+    <p>
+    This is Warsaw,Poland. My family is from a little town about 45 minutes east of Warsaw but the city has always been a focal point from my family. I have wanted to go for a long time but havent had the chance to. 
+    </p>
   </body>
 </html>
